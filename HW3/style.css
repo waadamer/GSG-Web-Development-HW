@@ -131,32 +131,22 @@ header li:hover {
 
 .skills-content li {
     display: inline-block;
+    position: relative;
     padding: 12px 25px;
     border-radius: 5px;
     margin-right: 5px;
+    top: 0;
+    bottom: 0;
     color: white;
     background-color: rgba(61, 173, 61, 0.5);
     transition: transform 0.3s ease;
 }
-
-
-.skills-content li:hover {
+.skills-content li:hover{
     background-color: rgba(56, 155, 56, 1);
-    animation: tranc 1.5s infinite;
+    top: -12px ;
 }
-
-@keyframes tranc {
-    0% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-10px);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
+.skills-content li:active{
+    top: 0;
 }
 
 /*****************projects section CSS*********************/
