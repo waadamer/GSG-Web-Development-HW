@@ -1,0 +1,347 @@
+body {
+    background-color: rgba(213, 208, 208, 0.345);
+    margin: 0 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*****************Header CSS*********************/
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #333333;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.up {
+    font-size: 35px;
+    text-align: right;
+    cursor: pointer;
+    position: fixed;
+    right: -5px;
+    bottom: 20px;
+    z-index: 100;
+}
+
+.up a {
+    text-decoration: none;
+}
+
+header h1 {
+    padding-top: 2%
+}
+
+header p {
+    font-size: 20px;
+    color: rgb(153, 148, 148);
+    margin-top: -1.5%;
+}
+
+header ul {
+    list-style: none;
+    padding-bottom: 35px;
+
+}
+
+header li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+header li:hover {
+    color: rgb(249, 213, 5);
+}
+
+/*****************about section CSS*********************/
+
+#about {
+    background-color: white;
+    border: 1px solid rgb(216, 212, 212);
+    border-radius: 10px;
+    padding: 0 20px;
+    margin-top: 40px;
+    padding-bottom: 230px;
+    position: relative;
+}
+
+
+#about h3 {
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+#about .about-content {
+    margin-top: -1.5%;
+    padding-left: 20px;
+    font-size: 19px;
+    font-weight: 300;
+    color: rgb(84, 83, 83);
+    line-height: 25px;
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    position: absolute;
+    left: 40%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+/*****************Skills section CSS*********************/
+
+#skills {
+    background-image: url(img/image3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3%;
+    border-radius: 10px;
+    padding: 0 20px;
+    margin: 40px 0;
+    height: 180px;
+}
+
+#skills h2 {
+    padding-top: 2%;
+    padding-left: 20px;
+    color: #2f2e2e;
+}
+
+.skills-content {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 12px 10px;
+    border-radius: 10px;
+    height: 65px;
+}
+
+.skills-content ul {
+    list-style: none;
+    margin-bottom: 40px;
+    margin-left: -20px;
+
+}
+
+.skills-content li {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: white;
+    background-color: rgba(61, 173, 61, 0.5);
+    transition: transform 0.3s ease;
+}
+
+
+.skills-content li:hover {
+    background-color: rgba(56, 155, 56, 1);
+    animation: tranc 1.5s infinite;
+}
+
+@keyframes tranc {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/*****************projects section CSS*********************/
+
+#projects {
+    background-color: white;
+    border: 1px solid rgb(216, 212, 212);
+    border-radius: 10px;
+    padding: 0 20px;
+    margin-top: 40px;
+    height: 920px;
+}
+
+.project-content {
+    position: relative;
+    padding: 20px;
+}
+
+.task {
+    background-color: #944da3;
+    width: 250px;
+    height: 280px;
+    color: rgb(46, 45, 45);
+    border-radius: 10px;
+    position: absolute;
+    left: 110px;
+    top: -1405%;
+}
+
+.Proto {
+    background-color: rgb(234, 157, 14);
+    width: 250px;
+    height: 280px;
+    color: rgb(46, 45, 45);
+    border-radius: 10px;
+    position: absolute;
+    left: 30px;
+    top: 0;
+}
+
+.comm {
+    background-color: rgb(14, 153, 234);
+    width: 250px;
+    height: 280px;
+    color: rgb(46, 45, 45);
+    border-radius: 10px;
+    position: absolute;
+    left: 30px;
+    top: 330px;
+}
+
+.blog {
+    background-color: rgb(126, 150, 150);
+    width: 101%;
+    height: 220px;
+    color: rgb(46, 45, 45);
+    border-radius: 10px;
+    position: absolute;
+    left: 30px;
+    top: 610px;
+}
+
+.task h4,
+.Proto h4,
+.comm h4,
+.blog h4 {
+    text-align: center;
+    font-size: 25px;
+    padding: 0 15px;
+    margin-top: 10px;
+}
+
+.task p,
+.Proto p,
+.comm p {
+    text-align: center;
+    font-size: 17px;
+    margin: 0 15px;
+    margin-top: -10%;
+    font-weight: 300;
+    color: rgb(44, 42, 42);
+    line-height: 25px;
+}
+
+.blog p {
+    text-align: center;
+    font-size: 17px;
+    margin-top: -30px;
+}
+
+/*****************contact section CSS*********************/
+
+
+#contact {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(203, 203, 203, 0.1);
+    border: 1px solid rgb(216, 212, 212);
+    border-radius: 10px;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+#contact p {
+    font-size: 15px;
+    margin-top: -20px;
+}
+
+.contact-content {
+    margin-top: -12px;
+}
+
+label {
+    font-size: 15px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.input {
+    width: 98.5%;
+    height: 30px;
+    border: 2px solid rgb(226, 222, 222);
+    border-radius: 5px;
+    margin-bottom: -10px;
+    padding: 0 10px;
+}
+
+.input:focus {
+    border: 2px solid rgb(100, 141, 100);
+    outline: none;
+}
+
+.textinput {
+    width: 98.5%;
+    border: 2px solid rgb(226, 222, 222);
+    border-radius: 5px;
+    margin-bottom: -10px;
+    padding: 0 10px;
+    padding-top: 5px;
+}
+
+.textinput:focus {
+    border: 2px solid rgb(100, 141, 100);
+    outline: none;
+}
+
+
+.submit {
+    font-size: 15px;
+    color: rgb(12, 131, 12);
+    border: 2px solid rgb(12, 131, 12);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+
+.submit:hover {
+    color: white;
+    background-color: rgb(12, 131, 12);
+}
+
+
+/*****************footer CSS*********************/
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #333333;
+    text-align: center;
+    border-radius: 8px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 12px 0;
+}
+
+footer li {
+    cursor: pointer;
+    display: inline;
+}
+
+.color {
+    color: rgb(249, 213, 5);
+}
+
+.color:hover {
+    color: white;
+}
