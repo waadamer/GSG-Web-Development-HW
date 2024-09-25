@@ -1,0 +1,171 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+
+/***** main nav bar CSS ****/
+
+
+nav.main {
+    background-color: #666666;
+    height: 50px;
+}
+
+/*******first nav bar CSS*********/
+
+
+.first-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -2px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav .first-list li {
+    display: inline-flex;
+    padding: 0px 30px;
+    margin-right: 5px;
+    background-color: #c6c6c6;
+}
+
+nav .last-list li {
+    display: inline-flex;
+    padding: 0px 5px;
+    margin-right: 5px;
+    background-color: #c6c6c6;
+}
+
+.right-list {
+    margin-right: 17.5px;
+}
+
+
+
+/*******Second nav bar CSS*********/
+
+
+
+.Second-nav {
+    height: 100px;
+    background: #666666;
+}
+
+.fa {
+    margin-left: 290px;
+    color: #bbb6b6;
+}
+
+
+/*******Main (left) content CSS*********/
+
+div.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.main .left {
+    flex-basis: 65%;
+    margin-left: 2.8%;
+}
+
+
+.main .left nav {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -4%;
+    margin-left: -0.3%;
+}
+
+
+
+.main .left .items-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+
+.items-list .item {
+    flex-basis: 18%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items-list .item a {
+    width: 100%;
+    height: 110px;
+    background-color:#e5dede;
+    margin-top: 18px;
+}
+.items-list p{
+    font-size: 15px;
+}
+
+
+/*******Main (right) content CSS*********/
+
+.main .right {
+    flex-basis: 10%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin: 0 22px;
+}
+
+.main .right .big-box {
+    flex-grow: 0;
+    flex-basis: 100%;
+    max-height: 200px;
+    margin-top: -6%;
+    background-color: #e5dede;
+}
+
+.main .right .right-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .right .right-item h2 {
+    height: 25px;
+    background-color: #555;
+    margin: 0;
+}
+
+hr {
+    width: 500px;
+    margin: 50px 0;
+}
+
+.main .right .right-item .item a {
+    background-color: #e5dede;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-top: -10px;
+    margin-right: 15px;
+}
+
+
+.main .right .right-item .item p{
+    margin-top: 20px;
+}
+
+
+/*******footer content CSS*********/
+
+.items-footer {
+    background-color: #555;
+    height: 20px;
+}
